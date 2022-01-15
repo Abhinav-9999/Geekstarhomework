@@ -1,0 +1,31 @@
+package Geeksterhw;
+
+import java.util.Scanner; 
+
+
+public class greatest {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in); 
+		System.out.println("Enter first Number(a)");
+		int a= sc.nextInt();
+		System.out.println("Enter second number(b)");
+		int b=sc.nextInt();
+		System.out.println("Enter third number(c)");
+		int c=sc.nextInt();
+		if(a>b && a>c) {
+			System.out.print("Greatest is a=  ");
+			System.out.println(a);
+		}
+		if(b>a && b>c) {
+		System.out.print("geatest is b");
+		System.out.println(b);
+		}
+		else {
+			System.out.print("greatest is c");
+			System.out.println(c);
+		}
+		
+	}
+
+}
